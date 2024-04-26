@@ -20,10 +20,10 @@ const Post = ({ post }) => {
         <p className="card-text">{post.body}</p>
         {post.tags.map((tag) => (
           <span key={tag} className="badge text-bg-primary hashtag">
-            {tag}
+            {`#${tag}`}
           </span>
         ))}
-        <span class="badge text-bg-success">{post.reactions}</span>
+        <span class="badge text-bg-success">{`👍${post.reactions}`}</span>
       </div>
     </div>
   );

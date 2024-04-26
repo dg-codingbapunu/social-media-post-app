@@ -59,17 +59,17 @@ const DEFAULT_POST_LIST = [
     id: "1",
     title: "Going to Mumbai",
     body: "Hi Friends, I am going to Mumbai for my vacations. Hope to enjoy a lot. Peace out.",
-    reactions: "👍 65",
+    reactions: " 65",
     userId: "user-9",
-    tags: ["# vacations", "# Mumbai", "# Enjoying"],
+    tags: ["vacations", "Mumbai", "Enjoying"],
   },
   {
     id: "2",
     title: "Paas ho bhai",
     body: "2 saal ki masti k baad bhi ho gaye hain paas. Hard to believe.",
-    reactions: "👍 15",
+    reactions: " 15",
     userId: "user-12",
-    tags: [" # Graduating", " # Unbelievable"],
+    tags: ["Graduating", "Unbelievable"],
   },
 ];
 
